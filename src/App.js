@@ -1,7 +1,10 @@
 import React from 'react';
+import Reader from './Components/Reader/Reader';
 
-function App() {
-  return <div className="App"> </div>;
-}
+const App = () => (
+  <>
+    <Reader />
+  </>
+);
 
 export default App;
